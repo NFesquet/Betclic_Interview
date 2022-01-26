@@ -1,0 +1,22 @@
+# Android Studio
+*.iml
+/local.properties
+/**/.idea/*
+/build
+/buildSrc/build
+/captures
+.externalNativeBuild
+
+# Android Studio ignore exceptions
+!/**/.idea/vcs.xml
+!/**/.idea/fileTemplates/
+!/**/.idea/inspectionProfiles/
+!/**/.idea/scopes/
+!/**/.idea/codeStyles/
+!/**/.idea/copyright/
+
+# Gradle
+.gradle
+
+# MacOS
+.DS_Store

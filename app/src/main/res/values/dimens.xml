@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_tiny">2dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_high">16dp</dimen>
+    <dimen name="margin_huge">32dp</dimen>
+
+    <dimen name="textsize_item_title">16sp</dimen>
+    <dimen name="textsize_item_body">12sp</dimen>
+    <dimen name="textsize_item_small">8sp</dimen>
+</resources>

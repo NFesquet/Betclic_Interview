@@ -3,9 +3,9 @@ package com.betclic.interview.api.dto
 import com.squareup.moshi.Json
 
 data class Character(
-    @Json(name= "id") val id: Int,
-    @Json(name= "name") val name: String,
-    @Json(name= "img") val img: String,
-    @Json(name= "nickname") val nickname: String,
-    @Json(name= "portrayed") val portrayed: String
+    @field:Json(name= "char_id") val id: Int,
+    @field:Json(name= "name") val name: String,
+    @field:Json(name= "img") val img: String,
+    @field:Json(name= "nickname") val nickname: String,
+    @field:Json(name= "portrayed") val portrayed: String
 )

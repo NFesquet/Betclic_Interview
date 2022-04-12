@@ -17,4 +17,5 @@ class ExerciseApiClient @Inject constructor(
 
     fun getCharacter(id: Int): Single<CharacterDetails> =
         exerciseService.getCharacter(id)
+            .map { it[0] } // API changed, now returns a list of one element
 }

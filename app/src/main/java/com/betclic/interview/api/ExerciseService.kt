@@ -12,5 +12,5 @@ interface ExerciseService {
     fun getCharacters(): Single<List<Character>>
 
     @GET("characters/{id}")
-    fun getCharacter(@Path("id") id: Int): Single<CharacterDetails>
+    fun getCharacter(@Path("id") id: Int): Single<List<CharacterDetails>>
 }
